@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export default function App() {
   return (
@@ -8,4 +8,8 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
     </div>
   );
+}
+
+function Component() {
+  <div> This is some random component that is reusable...?</div>;
 }
