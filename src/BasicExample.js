@@ -1,3 +1,5 @@
+import React from 'react';
+import './style.css';
 import Alert from 'react-bootstrap/Alert';
 
 function BasicExample() {
