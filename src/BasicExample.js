@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.css';
 import Alert from 'react-bootstrap/Alert';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BasicExample() {
   return (
