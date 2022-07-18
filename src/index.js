@@ -11,6 +11,8 @@ import Col from 'react-bootstrap/Col';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
+import './style.css';
+
 root.render(
   <StrictMode>
     <Container>
