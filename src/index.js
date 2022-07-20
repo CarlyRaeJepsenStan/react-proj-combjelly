@@ -1,9 +1,8 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import App from './App';
-import BasicExample from './BasicExample.js';
-import CircularProgressBar from './ProgressBarCard.js';
+import Card from './Card.js';
+import ProgressBar from './ProgressBar.js';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,17 +18,17 @@ root.render(
     <Container>
       <Row>
         <Col>
-          <BasicExample />
-          <CircularProgressBar />
+          <Card name="a" />
+          <ProgressBar />
         </Col>
 
         <Col>
           <Row>
-            <App />
+            <Card name="Asdf" / >
           </Row>
 
           <Row>
-            <App />
+            <Card name="asdfsdfadfasdfadf" />
           </Row>
         </Col>
       </Row>
