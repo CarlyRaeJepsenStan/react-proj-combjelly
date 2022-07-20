@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App';
 import BasicExample from './BasicExample.js';
+import CircularProgressBar from './ProgressBarCard.js';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,6 +20,7 @@ root.render(
       <Row>
         <Col>
           <BasicExample />
+          <CircularProgressBar />
         </Col>
 
         <Col>

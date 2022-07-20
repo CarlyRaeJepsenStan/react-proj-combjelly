@@ -10,6 +10,4 @@ export default function App() {
   );
 }
 
-function Component() {
-  <div> This is some random component that is reusable...?</div>;
-}
+
