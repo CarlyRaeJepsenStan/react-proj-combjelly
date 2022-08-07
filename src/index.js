@@ -1,7 +1,9 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import Form from './Form.js'
+import Form from './Form.js';
+
+import SearchForm from './SearchForm.js';
 
 import Card from './Card.js';
 import ProgressBar from './ProgressBar.js';
@@ -15,9 +17,10 @@ const root = createRoot(rootElement);
 
 import './style.css';
 
-root.render(<StrictMode>
-  <Form />
-</StrictMode>
+root.render(
+  <StrictMode>
+    <Form />
+  </StrictMode>
 );
 /*
 root.render(
