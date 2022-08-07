@@ -17,18 +17,23 @@ export default function Form() {
 .btn:hover {
   padding: 1rem 1.5rem;
   font-size: 1.5rem;
+}
 
-  .form {
-    background-color: black;
-  }
+.roundcorners {
+  border-radius: 100px;
+  background-color: blue;
 }
 `}
       </style>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
+          <Form.Control
+            className="roundcorners"
+            type="email"
+            placeholder="Enter email"
+          />
+          <Form.Text className="text-muted fff">
             We'll never share your email with anyone else.
           </Form.Text>
         </Form.Group>
